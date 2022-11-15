@@ -1,0 +1,190 @@
+* {box-sizing:border-box;}
+body {
+	margin:0 0 0 0;
+  padding:0 0 0 0;
+  text-align:center;
+  background-color:cornflowerblue;
+}
+
+#Header {
+	display:flex;
+	justify-content:space-between;
+	color:white;
+	background-color:cornflowerblue;
+	padding:0.6rem 1rem 0.6rem 1rem;
+}
+#HeadIcons i {
+	margin-right:0.2rem;
+}
+
+#title { 
+	border:1px solid green;
+	height:40vw;
+  position:relative; 
+}
+#title img {
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0px;
+  right:0px;
+	z-index:-1;
+  opacity:0.75;
+}
+#title h1 {
+	color:blue;
+	font-size:6rem;
+	margin:6.0rem auto auto auto;
+	font-family: "Comic Sans MS";
+}
+#title span {
+	font-size:2rem;
+}
+#buttons {
+	margin-top:4rem;
+}
+button {
+  background-color:transparent;
+  font-size:1.5rem;
+  border-radius:5px;
+  padding:0.5rem 0.5rem;
+  margin:1rem 2rem 1rem auto;
+}
+button:hover {
+  border:auto;
+  background-color:purple;
+  font-size:1.5rem;
+  color:white;
+}
+
+#Construction {
+	font-size:2rem;
+	border:0px solid green;
+	padding:0.6rem 1.5rem 0.6rem 1.5rem;
+	background-color:yellow;
+	display:none;
+}
+#Construction .box{
+  border:2px solid white;
+  padding:6rem 1.5rem 6rem 1.5rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  text-align:left;
+  background-image: url("construction1.jpg");
+  background-size:100% 100%;
+}
+.box span {
+	align-self:baseline;
+  color:white;
+  font-size:2.0rem;
+  font-weight:600;
+}
+#Land{
+  background-color:cornflowerblue;
+  text-align:center;
+  padding:0.6rem 1.5rem 1rem 1.5rem;
+}
+#Land h1 {
+  color:white;
+  font-size:2rem;
+}
+#jagga{
+  display:grid;
+  gap:1rem;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.box{
+  border:2px solid white;
+  padding:6rem 1.5rem 6rem 1.5rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  text-align:left;
+  background-image: url("land2.jpg");
+  background-size:100% 100%;
+}
+.box span {
+	align-self:baseline;
+  color:white;
+  font-size:2.0rem;
+  font-weight:600;
+}
+#jagga #jagBtn {
+	grid-column: 2 / 2;
+}
+/* End of Land */
+
+
+#form {
+	display:flex;
+	flex-direction:column;
+  padding-top:3rem;
+  text-align:left;
+}
+#form h1{
+  font-size:3rem;
+}
+form {
+	margin:auto auto auto auto;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(174,174,174);
+  height: 2.3rem;
+  width: 85%;
+  cursor: pointer;
+  caret-color: #00ccff;
+  margin: auto auto 0.5rem 1rem;
+}
+textarea{height:inherit}
+input:focus,
+textarea:focus{
+  outline:none;
+  border:0px solid #00ccff;
+}
+form button{
+  display:inline-block;
+  height:;
+  margin:2rem 1rem 1rem 1rem;
+}
+form button:hover{
+  color:white;
+}
+/* End of Form */
+
+#about {
+	padding:0.6rem 2.5rem 0.6rem 2.5rem;
+}
+footer {
+	border:0px solid blue;
+	display:flex;
+	justify-content:space-between;
+	padding:0.6rem 1.5rem 0.6rem 1.5rem;
+}
+footer #midDiv {
+	border:0px solid green;
+}
+footer ul {
+  font-size:1.5rem;
+  text-align:left;
+  list-style-type: "\27A2";
+}
+footer li {
+  font-size:1rem;
+  padding-left:0.2rem;
+}
+footer li {
+  font-size:1rem;
+  padding-left:0.2rem;
+}
+footer #lastDiv {
+	border:0px solid green;
+}
+
+@media only screen and (max-width: 900px) {
+	
+}
